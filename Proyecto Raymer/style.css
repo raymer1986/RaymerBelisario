@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    text-align: center;
+}
+img{
+    width: 40%;
+    }
+h1{
+    color: #341092e7;
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 10%;
+
+}
+header{
+    background:#351092c6;
+    text-align: left;
+    width: 100%;
+    height: 30 px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+   }
+p{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+    padding: 0;
+}
+nav{
+    top: 0px;
+    float: right;
+
+   
+}
+nav ul{
+
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    font-style: normal;
+    bottom: 10px;
+   
+}
+nav ul li a{
+    display: block;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+a{
+    text-align: center;
+}
+a:hover{
+    border: #351092;
+    color: #d4c3ff;
+    transition: 0.5s;
+ 
+}
+strong{
+   color: #341092e7;
+}
+
+form{
+    background: #fff;
+    width: 400px;
+    padding: 30px 0; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 #fff;
+        
+}
+
+form .group{
+    position: relative;
+    margin: 45px;
+    font-size: 14px;
+        
+}
+
+form input{
+    background: none;
+    color: c6c6c6;
+    font-size: 18px;
+    color: #351092;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c6c6c6;
+    
+}
+input:focus{
+        outline: none;
+}
+input:focus~label{
+    top: -20px;
+    transition: 0.5s ease all;
+    color: rgba(85, 85, 85, 0.397);
+   
+    
+}
+label{
+    color: rgb(29, 29, 29);
+    font-size: 10px;
+    position: absolute;
+    top: 18px;
+    font-size: 14px;
+}
+.cajaBoton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+}
+.cajaBoton button   {
+    background: #341092e7;
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight:bold;
+}
+button:hover{
+    background-color: #3d11aae7;
+    width: 50%;
+    transition: all 0.5s ease-out;
+}
+.registrado{
+    font-size: 12px;
+
+}
